@@ -1,0 +1,53 @@
+<svg viewBox="0 0 880 460" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="880" height="460" fill="#0d1117"/>
+  <text x="440" y="36" text-anchor="middle" fill="#e6edf3" font-size="19" font-weight="bold">The same prompt: "build a verification email" — rendered in Outlook (Windows)</text>
+
+  <!-- ============ BEFORE ============ -->
+  <text x="230" y="68" text-anchor="middle" fill="#f85149" font-size="14" font-weight="bold">WITHOUT SKILL</text>
+  <rect x="40" y="80" width="380" height="340" rx="8" fill="#ffffff"/>
+  <!-- broken: full-bleed div escaped container -->
+  <rect x="40" y="80" width="380" height="26" fill="#e8e8e8"/>
+  <text x="52" y="98" fill="#888888" font-size="11">⚠ This message contains elements that can't be displayed</text>
+  <!-- logo missing (blocked image, no alt style) -->
+  <rect x="60" y="122" width="90" height="24" fill="#f3f3f3" stroke="#cccccc" stroke-dasharray="3,2"/>
+  <text x="66" y="138" fill="#bbbbbb" font-size="10">✕ image</text>
+  <!-- heading crammed, margin collapsed -->
+  <text x="60" y="172" fill="#111111" font-size="16" font-weight="bold">Verify your email address</text>
+  <text x="60" y="190" fill="#444444" font-size="11">Hi there, use the code below to finish signing</text>
+  <text x="60" y="204" fill="#444444" font-size="11">in.This code expires in 10 minutes.Didn't request</text>
+  <text x="60" y="218" fill="#444444" font-size="11">this?You can safely ignore this email.</text>
+  <!-- code block: background dropped (rgba), letters jammed -->
+  <text x="60" y="252" fill="#111111" font-size="20" font-family="Courier New, monospace">483921</text>
+  <!-- button: border-radius gone, padding collapsed, link blue text -->
+  <rect x="60" y="276" width="86" height="20" fill="#ffffff" stroke="#2563eb"/>
+  <text x="68" y="290" fill="#2563eb" font-size="11" text-decoration="underline">Verify email</text>
+  <!-- stray div escaped -->
+  <rect x="40" y="316" width="380" height="2" fill="#dddddd"/>
+  <text x="60" y="345" fill="#999999" font-size="10">{{company_address}}</text>
+  <text x="60" y="362" fill="#999999" font-size="10">unsubscribe%20url%20not%20found</text>
+  <!-- annotations -->
+  <text x="60" y="402" fill="#f85149" font-size="11">✗ layout collapsed  ✗ square ghost button  ✗ blocked logo blank</text>
+
+  <!-- ============ AFTER ============ -->
+  <text x="650" y="68" text-anchor="middle" fill="#3fb950" font-size="14" font-weight="bold">WITH email-pro-max</text>
+  <rect x="460" y="80" width="380" height="340" rx="8" fill="#f4f4f7"/>
+  <!-- styled alt text in place of blocked logo -->
+  <text x="650" y="116" text-anchor="middle" fill="#111827" font-size="13" font-weight="bold">ACME</text>
+  <!-- card -->
+  <rect x="484" y="130" width="332" height="244" rx="8" fill="#ffffff"/>
+  <text x="508" y="166" fill="#111827" font-size="15" font-weight="bold">Verify your email address</text>
+  <text x="508" y="188" fill="#4b5563" font-size="11">Hi Alex, use the code below to finish signing in.</text>
+  <text x="508" y="203" fill="#4b5563" font-size="11">This code expires in 10 minutes.</text>
+  <!-- code block with solid bg -->
+  <rect x="508" y="218" width="284" height="44" rx="6" fill="#f3f4f6"/>
+  <text x="650" y="248" text-anchor="middle" fill="#111827" font-size="20" font-weight="bold" font-family="Courier New, monospace" letter-spacing="8">483921</text>
+  <!-- VML bulletproof button -->
+  <rect x="580" y="280" width="140" height="38" rx="5" fill="#2563eb"/>
+  <text x="650" y="304" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="bold">Verify email</text>
+  <text x="508" y="348" fill="#6b7280" font-size="9.5">Didn't request this? You can safely ignore this email.</text>
+  <!-- footer -->
+  <text x="650" y="398" text-anchor="middle" fill="#6b7280" font-size="9.5">Acme Inc · 100 Main St, Springfield, ST 00000</text>
+  <!-- annotations -->
+  <text x="484" y="441" fill="#3fb950" font-size="11">✓ hybrid table layout  ✓ VML button  ✓ styled alt text  ✓ dark-mode safe</text>
+  <text x="60" y="441" fill="#8b949e" font-size="11">div layout · rgba colors · CSS-only button · no alt styling</text>
+</svg>

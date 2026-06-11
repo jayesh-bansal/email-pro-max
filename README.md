@@ -2,6 +2,8 @@
 
 **Design intelligence for HTML email. Make Claude write email that renders perfectly in Outlook, Gmail, Apple Mail — all of them.**
 
+![Before and after: the same prompt with and without email-pro-max, rendered in Outlook](assets/before-after.svg)
+
 Ask an AI for an email template and you'll get modern CSS that shatters in
 Outlook, gets clipped by Gmail, and turns illegible in dark mode. Email clients
 are not browsers — Outlook still renders with **Microsoft Word's engine**, and
